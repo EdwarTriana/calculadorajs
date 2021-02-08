@@ -1,0 +1,61 @@
+/*estilos generales*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    margin: 5%;
+}
+
+
+
+.calculator-section {
+    width: 100%;
+    text-align: center;
+}
+/*calculator container*/
+.calculator-container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+/*body calculator*/
+.calculator-body {
+    background: black;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+/*screen*/
+.screen {
+    background-color: green;
+    padding: 5%;
+}
+/*empty*/
+.empty {
+    padding: 5%;
+}
+/* buttons*/
+.normal-button {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.clean-button {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+.clean-button:hover, .normal-button:hover {
+    background-color: darkmagenta;
+    color: white;
+
+}
